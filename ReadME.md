@@ -40,7 +40,7 @@ Once your infrastructure is deployed using Terraform, follow these steps to veri
 
 #### Common Issue: Ping Not Working (100% Packet Loss)
 
-![Resources](asset/ping_works.jpeg)
+![Resources](asset/no_feedback.png)
 
 If ping fails and you see:
 PING 10.1.1.128 (10.1.1.128) 56(84) bytes of data.
@@ -61,4 +61,4 @@ Edit Inbound Rules:
 Make sure each EC2’s security group allows ICMP traffic from the other EC2’s group.
  After applying these changes, ping should now return responses like:
 
-![Resources](asset/no_feedback.png)
+![Resources](asset/ping_works.jpeg)
