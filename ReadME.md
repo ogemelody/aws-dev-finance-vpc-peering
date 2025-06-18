@@ -42,12 +42,6 @@ Once your infrastructure is deployed using Terraform, follow these steps to veri
 
 ![Resources](asset/no_feedback.png)
 
-If ping fails and you see:
-PING 10.1.1.128 (10.1.1.128) 56(84) bytes of data.
---- 10.1.1.128 ping statistics ---
-100% packet loss
-This usually means ICMP traffic is being blocked by the Security Group settings.
-
 
 ### Solution: Update Security Group Rules
 - Go to AWS Console → EC2 → Security Groups.
