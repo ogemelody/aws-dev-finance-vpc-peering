@@ -18,11 +18,6 @@ Apply the configuration
 
 Add the Key Pair and .tfvars to gitignore, and other large terraform files  
 
-
-###  Clean Up Resources
-To avoid ongoing charges, destroy all created resources when done
-<pre> terraform destroy </pre>
-
 ---
 
 ## 🧪 Test Connection
@@ -56,3 +51,9 @@ Make sure each EC2’s security group allows ICMP traffic from the other EC2’s
  After applying these changes, ping should now return responses like:
 
 ![Resources](asset/ping_works.jpeg)
+
+---
+###  Clean Up Resources
+To avoid ongoing charges, destroy all created resources when done
+<pre> terraform destroy </pre>
+
